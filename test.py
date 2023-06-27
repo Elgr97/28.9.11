@@ -140,7 +140,7 @@ class News(BaseModel):
 def test_get_group_news():
     url = "https://api.vk.com/method/wall.get"
     params = {
-        "access_token": "YOUR_ACCESS_TOKEN",
+        "access_token": "YOUR_TOKEN",
         "v": "5.131",
         "owner_id": "-GROUP_ID",
         "count": "10"
